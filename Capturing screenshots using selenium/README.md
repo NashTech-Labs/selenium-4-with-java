@@ -5,6 +5,7 @@ Screenshots are beneficial, specifically in headless test execution, where you c
 This template helps you to Capture a Screenshot of a Web Page, Section, and Web Element through Selenium.
 
 
+
 ## Scenarios in which selenium screenshots would be required-
 - When application issues occur
 - When an assertion failure occurs.
@@ -69,9 +70,12 @@ Apache poi-ooxml
 
 2. Open the project in any IDE which run maven project.
 
-3. Go to project and run Test files.
+3. Download the latest version of Chrome Driver from the link given below and place that in the chromedriver_linux64 folder.
 
+4. Go to project and run Test files.
 
+Link for download chrome driver: 
+https://chromedriver.chromium.org/downloads
 
 ## 🔗 For a better understanding please refer to this blog Link
 

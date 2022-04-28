@@ -1,16 +1,13 @@
 package TakeScreenshot;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
 public class SingleElement {
     public static void main(String[] args) throws IOException {
         System.setProperty("webdriver.chrome.driver", "src/test/chromedriver_linux64/chromedriver");
@@ -27,7 +24,6 @@ public class SingleElement {
         elementScreenshot(option, "option");
         driver.quit();
     }
-
     public static void elementScreenshot(WebElement element, String Filename) throws IOException {
         File srcFile = element.getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(srcFile, new File("./target/" + Filename + ".png"));
