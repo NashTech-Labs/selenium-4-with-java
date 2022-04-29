@@ -9,7 +9,6 @@
     <version>1.0-SNAPSHOT</version>
 
 
-
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -33,7 +32,7 @@
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>3.9</version>
+            <version>3.17</version>
         </dependency>
 
         <dependency>
@@ -79,9 +78,8 @@
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-scratchpad</artifactId>
-            <version>3.9</version>
+            <version>5.2.1</version>
         </dependency>
-
 
 
         <dependency>
@@ -114,10 +112,6 @@
             <artifactId>selenium-java</artifactId>
             <version>4.0.0-alpha-7</version>
         </dependency>
-
-
-
-
 
 
     </dependencies>
@@ -217,10 +211,6 @@
         <kotlin.version>1.4.30-RC</kotlin.version>
         <main.basedir>${project.basedir}</main.basedir>
     </properties>
-
-
-
-
 
 
 </project>
