@@ -4,10 +4,13 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-public class WebPage {
+public class WebPageTest {
+    @Test
     public static void main(String[] args) throws IOException {
         System.setProperty("webdriver.chrome.driver", "src/test/chromedriver_linux64/chromedriver");
         WebDriver driver = new ChromeDriver();

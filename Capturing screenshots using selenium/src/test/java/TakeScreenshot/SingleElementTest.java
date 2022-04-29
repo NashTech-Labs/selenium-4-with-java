@@ -5,10 +5,14 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-public class SingleElement {
+
+public class SingleElementTest {
+    @Test
     public static void main(String[] args) throws IOException {
         System.setProperty("webdriver.chrome.driver", "src/test/chromedriver_linux64/chromedriver");
         WebDriver driver = new ChromeDriver();
@@ -16,12 +20,12 @@ public class SingleElement {
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("https://www.knoldus.com/connect/contact-us");
-        WebElement name = driver.findElement(By.xpath("//input[@formcontrolname='name']"));
-        WebElement company = driver.findElement(By.xpath("//*[contains(@alt, 'Knoldus logo')]"));
+        WebElement name = driver.findElement(By.xpath("//input[@name='fullname']"));
+        WebElement logo = driver.findElement(By.xpath("//div[@data-id = \"6982463\"]"));
         WebElement option = driver.findElement(By.xpath("//select"));
         elementScreenshot(name, "name");
-        elementScreenshot(company, "logo");
         elementScreenshot(option, "option");
+        elementScreenshot(logo,"logo");
         driver.quit();
     }
     public static void elementScreenshot(WebElement element, String Filename) throws IOException {

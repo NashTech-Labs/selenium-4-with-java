@@ -38,6 +38,25 @@
             <artifactId>selenium-java</artifactId>
             <version>4.0.0-alpha-7</version>
         </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.5</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <version>1.7.32</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>util-logging_2.12</artifactId>
+            <version>1.5.0</version>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 </project>
