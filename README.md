@@ -16,4 +16,3 @@ This template will make you to understand the concept of *Keyboard Actions* in S
 1. Open the project or Download the repository.
 2. Open the **Actions** folder in your IntelliJ or any other IDE which supports maven projects.
 3. Run the `src>test>java` files.
-
