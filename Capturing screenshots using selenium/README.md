@@ -1,10 +1,6 @@
-
 # Capturing Screenshots using selenium
-
 Screenshots are beneficial, specifically in headless test execution, where you cannot see the GUI of the application. Still, Selenium will capture it by a screenshot and store it in a file so that you can verify the application later.
 This template helps you to Capture a Screenshot of a Web Page, Section, and Web Element through Selenium.
-
-
 
 ## Scenarios in which selenium screenshots would be required-
 - When application issues occur
@@ -12,9 +8,7 @@ This template helps you to Capture a Screenshot of a Web Page, Section, and Web 
 - When there is some difficulty in finding a web element on a page.
 - Where there is a Timeout in finding a web element on a web page
 
-
 ## Technologies Used
-
 **Programming language:** Java
 
 **Build tool:** Maven
@@ -22,10 +16,9 @@ This template helps you to Capture a Screenshot of a Web Page, Section, and Web 
 **Automation tool:** Selenium Webdriver
 
 **IDE:** Intellij Idea
+
 ## Dependencies Used-
-
 Selenium Webdriver
-
 ```bash
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -33,8 +26,8 @@ Selenium Webdriver
             <version>4.1.0</version>
         </dependency>
 ```
-Apache poi
 
+Apache poi
 ```bash
  
         <dependency>
@@ -43,8 +36,8 @@ Apache poi
             <version>5.0.0</version>
         </dependency>
 ```
-Selenium java
 
+Selenium java
 ```bash
  
         <dependency>
@@ -53,8 +46,8 @@ Selenium java
             <version>4.0.0-alpha-7</version>
         </dependency>
 ```
-Apache poi-ooxml
 
+Apache poi-ooxml
 ```bash
          <dependency>
             <groupId>org.apache.poi</groupId>
