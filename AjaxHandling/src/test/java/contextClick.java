@@ -7,12 +7,9 @@ import org.openqa.selenium.interactions.Actions;
     public class contextClick {
         public static void main(String[] args) {
             System.setProperty("webdriver.chrome.driver", "/home/knoldus/Downloads/Ajax handling/browser driver/chromedriver_linux64/chromedriver");
-
             WebDriver driver = new ChromeDriver();
-
                 // Navigate to Url
                 driver.get("https://google.com");
-
                 // Store 'google search' button web element
                 WebElement search = driver.findElement(By.linkText("Sign in"));
                 Actions context = new Actions(driver);
