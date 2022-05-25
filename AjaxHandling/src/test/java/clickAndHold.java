@@ -7,11 +7,8 @@ import org.openqa.selenium.interactions.Actions;
 public class clickAndHold {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "/home/knoldus/Downloads/Ajax handling/browser driver/chromedriver_linux64/chromedriver");
-
         WebDriver driver = new ChromeDriver();
-
         driver.manage().window().maximize();
-
         try {
             // Navigate to Url
             driver.get("https://google.com");
