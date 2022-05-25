@@ -18,10 +18,26 @@ Selenium has become the industry standard for implementing custom automated test
 4) click and hold(): Clicks at the present mouse location without releasing.
 5) moveToElement(toElement): It shifts the mouse to the center of the element.
 
+### Technologies used:
+**Programming Language** - Java
+
+**Build Tool** - Maven
+
+**Automation Tool** - Selenium
+
+**IDE** - Intellij
+
+### Dependencies Used
+
+**testng**
+
+**SeleniumHq**
+
 ### Short Description about this template
 This template will make you to understand the concept of *Action class* in Selenium.
 
 ### Steps to run the Template in Selenium project
-1. Open the project or Download the repository.
-2. Open the **Actions** folder in your IntelliJ or any other IDE which supports maven projects.
-3. Run the `src>test>java` files.
+1. Clone the repository on your local system.
+2. Let Intellij resolve all the required dependencies.
+3. Add the latest chromedriver from https://chromedriver.chromium.org/downloads
+4. Run the `src>test>java` files.
