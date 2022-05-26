@@ -1,4 +1,4 @@
-### Ajax Handling(Hanling Mouse Actions)
+## Ajax Handling(Hanling Mouse Actions)
 ## Overview
 
 Selenium has become the industry standard for implementing custom automated tests because of which it is considered the first go-to solution for every web application. Action Class in Selenium is a built-in feature provided by the selenium for handling keyboard and mouse events. This is something very interesting part of Selenium which is performed using the advanced user interaction API in the Selenium Web driver.
