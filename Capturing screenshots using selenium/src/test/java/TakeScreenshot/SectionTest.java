@@ -16,10 +16,15 @@ public class SectionTest {
     @Test
     public static void main(String[] args) throws IOException {
         System.setProperty("webdriver.chrome.driver", "src/test/chromedriver_linux64/chromedriver");
+        // Launch Chrome
         WebDriver driver = new ChromeDriver();
+        // Maximize Window
         driver.manage().window().maximize();
+        // Delete all Cookies
         driver.manage().deleteAllCookies();
+        // Waits
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        // Capturing Screenshot of a Section
         driver.get("https://www.knoldus.com/connect/contact-us");
         WebElement pageSection = driver.findElement(By.xpath("//*[contains(@data-id, '0aaccc4')]"));
         File src = pageSection.getScreenshotAs(OutputType.FILE);

@@ -13,10 +13,15 @@ public class WebPageTest {
     @Test
     public static void main(String[] args) throws IOException {
         System.setProperty("webdriver.chrome.driver", "src/test/chromedriver_linux64/chromedriver");
+        // Launch Chrome
         WebDriver driver = new ChromeDriver();
+        // Maximize Window
         driver.manage().window().maximize();
+        // Delete all Cookies
         driver.manage().deleteAllCookies();
+        // Waits
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        // Capturing Screenshot of a Webpage
         driver.get("https://www.knoldus.com/connect/contact-us");
 
         TakesScreenshot capture = (TakesScreenshot) driver;
