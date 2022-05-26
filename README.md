@@ -20,7 +20,7 @@ A Keyboard Event describes a user's interaction with the keyboard. When a user p
 **IDE** - Intellij
 
 ### Dependencies Used
-<dependency>
+        <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
