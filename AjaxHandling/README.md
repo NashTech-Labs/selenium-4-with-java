@@ -30,17 +30,17 @@ Selenium has become the industry standard for implementing custom automated test
 
 ### Dependencies Used
 
-       **<dependency>
+       <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
-        </dependency>**
+        </dependency>
         
-        **<dependency>
+        <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.14.3</version>
-        </dependency>**
+        </dependency>
   
 ### Short Description about this template
 This template will make you to understand the concept of *Action class* in Selenium.
@@ -49,4 +49,4 @@ This template will make you to understand the concept of *Action class* in Selen
 1. Clone the repository on your local system.
 2. Let Intellij resolve all the required dependencies.
 3. Add the latest chromedriver from https://chromedriver.chromium.org/downloads
-4. Run the `src>test>java` files.
+4. Run the files using command mvn test.
