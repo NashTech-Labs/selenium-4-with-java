@@ -1,4 +1,6 @@
-## OVERVIEW
+## Handling Keyboard Actions
+
+### OVERVIEW
 
 Keyboard represents a KeyBoard event. KeyBoard actions are performed by using low-level interface which allows us to provide virtualized device input to the web browser.
 A Keyboard Event describes a user's interaction with the keyboard. When a user presses single or multiple keys, keyboard events generate. Selenium provides various ways to automate these Keyboard Events.
@@ -18,10 +20,17 @@ A Keyboard Event describes a user's interaction with the keyboard. When a user p
 **IDE** - Intellij
 
 ### Dependencies Used
-
-**testng**
-
-**SeleniumHq**
+**<dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>**
+        
+        **<dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.3</version>
+        </dependency>**
 
 ### Short Description about this template
 This template will make you to understand the concept of *Keyboard Actions* in Selenium.
