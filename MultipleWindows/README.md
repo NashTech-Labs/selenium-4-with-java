@@ -67,7 +67,7 @@ Apache poi-ooxml
 
 3. Download the latest version of Chrome Driver and Gecko Driver from the link given below and place that in the chromedriver_linux64 and geckodriver-v0.30.0-linux64 folder respectively.
 
-4. Go to project and run Test files.
+4. Go to project and run Test files using ```mvn test``` command.
 
 Link for download chrome driver: 
 https://chromedriver.chromium.org/downloads
